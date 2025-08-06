@@ -1,0 +1,11 @@
+apiVersion: v2
+name: redis-operator
+type: application
+appVersion: 0.20.0
+description: Redis
+version: 0.20.0
+icon: https://github.com/OT-CONTAINER-KIT/redis-operator/raw/main/static/redis-operator-logo.svg
+dependencies:
+- name: redis-operator
+  repository: file://charts/redis-operator
+  version: 0.21.2
